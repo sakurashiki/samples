@@ -56,7 +56,7 @@ body {
   border-top: 1px dotted rgb(16,139,203);
   padding: 5px;
 }
-.name>.image {
+.name>img {
   display : block;
   float : left;
   width : 25%;
@@ -161,7 +161,7 @@ if ( $target ) {
         s/\//__SLASH__/g;
         print "<div class='item'>";
         print "  <div class='name'>";
-        print "    <div class='image'><img src='../img/".(sprintf "%02d",rand(20)).".jpg'></div>";
+        print "    <img src='../img/".(sprintf "%02d",rand(20)).".jpg'>";
         print "    <div class='hn'>".($nameList[(rand(20))])."</div>";
         print "    <div class='title'>".($titleList[(rand(20))])."</div>";
         print "  </div>";
