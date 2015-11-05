@@ -63,16 +63,18 @@ body {
 }
 .name>.hn {
   margin-top : 3px;
+  margin-left : 5%;
+  margin-right: 5%;
   display : block;
   float: left;
-  width : 70%;
   color: rgb(20,20,20);
 }
 .name>.title {
   margin-top: 5px;
+  margin-left : 5%;
+  margin-right: 5%;
   display : block;
   float: left;
-  width : 70%;
   text-decoration:bold;
   color: rgb(100,100,100);
   font-size: 80%;
