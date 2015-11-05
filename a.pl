@@ -112,6 +112,8 @@ body {
   border-radius : 100px;
   padding : 1%;
   margin-bottom:2px;
+  font-size: 90%;
+  background-color : silver;
 }
 </style>
 <script>
