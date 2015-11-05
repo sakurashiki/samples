@@ -60,6 +60,7 @@ body {
   display : block;
   float : left;
   width : 18%;
+  margin-bottom:8px;
 }
 .name>.hn {
   margin-top : 3px;
