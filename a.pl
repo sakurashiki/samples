@@ -91,7 +91,7 @@ body {
   width : 68%;
   background-color : rgb(16,139,203);
   float : left;
-  padding: 5%;
+  padding: 2%;
   border-radius : 50px;
   text-align : center;
   color: white;
@@ -101,7 +101,7 @@ body {
   background-color : orange;
   float : left;
   margin-left: 2%;
-  padding: 5%;
+  padding: 2%;
   border-radius: 50px;
   color: white;
   text-align : center;
