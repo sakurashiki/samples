@@ -22,7 +22,6 @@ body {
   background-color : gray;
 }
 .main {
-  width: 400px;
   margin: 0 auto;
   background-color: white;
 }
@@ -187,4 +186,3 @@ if ( $target ) {
   }
   print '</ul>';
 }
-
