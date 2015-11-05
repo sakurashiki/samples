@@ -108,10 +108,12 @@ body {
   color: white;
   text-align : center;
 }
+.tags {
+  heigth : 15px;
+}
 .tags>.tag {
   border-radius : 100px;
   padding : 2%;
-  margin-top:5%;
   margin-bottom:6%;
   margin-rigth : 3%;
   font-size: 90%;
