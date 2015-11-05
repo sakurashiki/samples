@@ -65,7 +65,7 @@ body {
   margin-top : 3px;
   margin-left : 5%;
   margin-right: 5%;
-  width : 70%;
+  width : 65%;
   display : block;
   float: left;
   color: rgb(20,20,20);
