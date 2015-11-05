@@ -74,6 +74,7 @@ body {
   margin-top: 5px;
   margin-left : 5%;
   margin-right: 5%;
+  width : 65%;
   display : block;
   float: left;
   text-decoration:bold;
