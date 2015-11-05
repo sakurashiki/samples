@@ -60,7 +60,7 @@ body {
   display : block;
   float : left;
   width : 18%;
-  margin-bottom:8px;
+  margin-bottom:2px;
 }
 .name>.hn {
   margin-top : 3px;
@@ -108,6 +108,11 @@ body {
   color: white;
   text-align : center;
 }
+.tags>.tag {
+  border-radius : 100px;
+  padding : 1%;
+  margin-bottom:2px;
+}
 </style>
 <script>
 var i = 0;
@@ -128,7 +133,6 @@ window.document.onkeydown = function() {
     return void(0);
   }
 }
-
 </script>
 EOF
 
