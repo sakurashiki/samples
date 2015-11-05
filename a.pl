@@ -110,11 +110,12 @@ body {
 }
 .tags {
   heigth : 15px;
+  margin-top : 8px;
+  margin-bottom : 8px;
 }
 .tags>.tag {
   border-radius : 100px;
   padding : 2%;
-  margin-bottom:6%;
   margin-rigth : 3%;
   font-size: 90%;
   background-color : #EEE;
