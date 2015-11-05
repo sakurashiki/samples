@@ -88,16 +88,17 @@ body {
   margin : 2%;;
 }
 .command>.suki {
-  width : 68%;
+  width : 60%;
   background-color : rgb(16,139,203);
   float : left;
+  margin-left: 2%;
   padding: 2%;
   border-radius : 50px;
   text-align : center;
   color: white;
 }
 .command>.cart {
-  width : 20%;
+  width : 30%;
   background-color : orange;
   float : left;
   margin-left: 2%;
