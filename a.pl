@@ -88,7 +88,7 @@ body {
   margin : 2%;;
 }
 .command>.suki {
-  width : 50%;
+  width : 52%;
   background-color : rgb(16,139,203);
   float : left;
   margin-left: 2%;
