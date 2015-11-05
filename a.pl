@@ -59,13 +59,13 @@ body {
 .name>img {
   display : block;
   float : left;
-  width : 25%;
+  width : 18%;
 }
 .name>.hn {
   margin-top : 3px;
   margin-left : 2%;
   margin-right: 2%;
-  width : 65%;
+  width : 77%;
   display : block;
   float: left;
   color: rgb(20,20,20);
@@ -74,7 +74,7 @@ body {
   margin-top: 5px;
   margin-left : 2%;
   margin-right: 2%;
-  width : 65%;
+  width : 77%;
   display : block;
   float: left;
   text-decoration:bold;
