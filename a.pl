@@ -140,7 +140,7 @@ if ( $target ) {
     my $i = 0;
     foreach( glob $url."/*" ) {
       if( 0 < (-s $_ ) ) {
-        print "<img id='".$i."' src='".$_."' /><br/>\n";
+        print "<img id='".$i."' src='".$_."' style='width:100%;display:block;'/><br/>\n";
         $i++;
       }
     }
