@@ -111,8 +111,9 @@ body {
 .tags>.tag {
   border-radius : 100px;
   padding : 2%;
-  margin-top:3%;
-  margin-bottom:3%;
+  margin-top:5%;
+  margin-bottom:6%;
+  margin-rigth : 3%;
   font-size: 90%;
   background-color : #EEE;
 }
