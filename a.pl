@@ -72,8 +72,8 @@ body {
 }
 .name>.title {
   margin-top: 5px;
-  margin-left : 5%;
-  margin-right: 5%;
+  margin-left : 2%;
+  margin-right: 2%;
   width : 65%;
   display : block;
   float: left;
