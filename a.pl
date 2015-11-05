@@ -91,17 +91,17 @@ body {
   width : 68%;
   background-color : rgb(16,139,203);
   float : left;
-  padding: 5px;
+  padding: 5%;
   border-radius : 50px;
   text-align : center;
   color: white;
 }
 .command>.cart {
-  width : 22%;
+  width : 20%;
   background-color : orange;
   float : left;
-  margin-left: 10px;
-  padding : 5px;
+  margin-left: 2%;
+  padding: 5%;
   border-radius: 50px;
   color: white;
   text-align : center;
