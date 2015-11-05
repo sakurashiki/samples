@@ -3,7 +3,7 @@
 print "Content-Type: text/html\n\n";
 print "<!DOCTYPE html>";
 print "<meta charset='utf-8'>";
-print '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">';
+print '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">';
 print "<title>sample A</title>";
 
 my %list = (
