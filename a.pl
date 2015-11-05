@@ -40,7 +40,7 @@ body {
 .header {
   z-index:1;
   position: fixed;
-  width : 400px;
+  width : 100%;
   margin: 0 auto;
   height: 40px;
   background-color: rgb(16,139,203);
@@ -63,8 +63,8 @@ body {
 }
 .name>.hn {
   margin-top : 3px;
-  margin-left : 5%;
-  margin-right: 5%;
+  margin-left : 2%;
+  margin-right: 2%;
   width : 65%;
   display : block;
   float: left;
