@@ -110,10 +110,11 @@ body {
 }
 .tags>.tag {
   border-radius : 100px;
-  padding : 1%;
-  margin-bottom:2px;
+  padding : 2%;
+  margin-top:3%;
+  margin-bottom:3%;
   font-size: 90%;
-  background-color : silver;
+  background-color : #EEE;
 }
 </style>
 <script>
