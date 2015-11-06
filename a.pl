@@ -121,7 +121,7 @@ body {
   background-color : #EEE;
 }
 .menu {
-  display : block;
+  display : none;
 }
 </style>
 <script>
