@@ -165,7 +165,7 @@ if ( $target ) {
     @titleList = <TITLE_LIST>;
     close TITLE_LIST;
     print '<div class="main">';
-    print '<div class="header"><div>';
+    print '<div class="header">';
     print '';
     print 'トレンド';
     print '</div>';
