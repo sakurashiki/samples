@@ -148,6 +148,12 @@ EOF
 
 my ( $target, $url ) = split /---/,$ENV{'QUERY_STRING'};
 
+print '<div class="main">';
+print '<div class="header">';
+print '';
+print 'トレンド';
+print '</div>';
+
 print '<ul class="menu">';
 foreach( keys %list ) {
   my $path = $list{$_};
@@ -174,11 +180,6 @@ if ( $target ) {
     open TITLE_LIST, '< ../seeds/titleList.txt';
     @titleList = <TITLE_LIST>;
     close TITLE_LIST;
-    print '<div class="main">';
-    print '<div class="header">';
-    print '';
-    print 'トレンド';
-    print '</div>';
     print '<div class="article">';
     foreach( glob $list{$target}."/*" ) {
       if( -f $_."/001.jpg" and (-s $_."/001.jpg" > 0) ) {
@@ -208,6 +209,6 @@ if ( $target ) {
       }
     }
     print '</div>';
-    print '</div>';
   }
 }
+print '</div>';
