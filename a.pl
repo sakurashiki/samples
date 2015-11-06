@@ -120,6 +120,9 @@ body {
   font-size: 90%;
   background-color : #EEE;
 }
+.menu {
+  display : block;
+}
 </style>
 <script>
 var i = 0;
@@ -144,6 +147,13 @@ window.document.onkeydown = function() {
 EOF
 
 my ( $target, $url ) = split /---/,$ENV{'QUERY_STRING'};
+
+print '<ul class="menu">';
+foreach( keys %list ) {
+  my $path = $list{$_};
+  print '<li><a href="?'.$_.'">'.$_.'</a></li>';
+}
+print '</ul>';
 
 if ( $target ) {
   if ( $url ) {
@@ -200,11 +210,4 @@ if ( $target ) {
     print '</div>';
     print '</div>';
   }
-} else {
-  print '<ul>';
-  foreach( keys %list ) {
-    my $path = $list{$_};
-    print '<li><a href="?'.$_.'">'.$_.' -- '.`ls -l ${path} | wc -l  `.'</a></li>';
-  }
-  print '</ul>';
 }
