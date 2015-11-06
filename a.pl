@@ -201,7 +201,6 @@ if ( $target ) {
     print '</div>';
   }
 } else {
-  print '<h1>タグを選んでください</h1>';
   print '<ul>';
   foreach( keys %list ) {
     my $path = $list{$_};
